@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pantera-cor-de-rosa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="./img/logo-cabeça.png" alt="logo-cabeça">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo-Pata.png" alt="Logo da pantera" class="logo-Pata">
+            <h1> E quem disse que vermelho é a cor do amor? </h1>
+            <h2>Ele pode ser cor de rosa!</h2>
+            <br>
+            <p> Já se imaginou recebendo conselhos amorosos de uma pantera?</p>
+            <p> Podemos te ajudar!</p>
+            <br>
+
+            <a href="https://api.whatsapp.com/send?phone=555555555555&text=Ol%C3%A1!%20Quero%20me%20juntar%20ao%20Club%20e%20receber%20conselhos%20da%20Pantera%20cor%20de%20rosa."
+                target="_blank" class="link-whatsapp">
+                <img src="./img/logo-whatsapp.png" alt="Link para whatsapp">
+            </a>
+
+            <button onclick="mostrarform()">Clique Aqui</button>
+        </div>
+
+        <div>
+            <img src="./img/casal-cor-de-rosa.png" alt="imagem do casal pantera" class="casal-cor-de-rosa">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+
+        <div class="mascara"></div>
+
+    </div>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/PVaALMRIBuG"
+    method="POST"
+    enctype="multipart/form-data">
+        <input placeholder="Seu Nome" type="text" name="nome">
+        <input placeholder="Seu Telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite um comentário" name="duvida"></textarea>
+        <button type="submit">Junte-se ao Club da Pantera</button>
+    </form>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
